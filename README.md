@@ -11,7 +11,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 Next.js works with Windows, Mac and Linux alike. You only need to have Node.js installed on your system to begin building Next.js applications. Besides that you need to have a text editor to write code, and a Terminal application to invoke some commands.
 ```
-If you are on Windows, try to use PowerShell. Next.js works with any shell or terminal, but we'll be using some UNIX-specific commands in this guide. We recommend using PowerShell to make it easy to follow along.
+If you are on Windows, try to use PowerShell. 
+Next.js works with any shell or terminal, but we'll be using some UNIX-specific commands in this guide.
+We recommend using PowerShell to make it easy to follow along.
 ```
 
 ### Installing
