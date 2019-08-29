@@ -9,27 +9,37 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
+Next.js works with Windows, Mac and Linux alike. You only need to have Node.js installed on your system to begin building Next.js applications. Besides that you need to have a text editor to write code, and a Terminal application to invoke some commands.
 ```
-Give examples
+If you are on Windows, try to use PowerShell. Next.js works with any shell or terminal, but we'll be using some UNIX-specific commands in this guide. We recommend using PowerShell to make it easy to follow along.
 ```
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
+To start, create a sample project by running the following commands:
 ```
-Give the example
+mkdir hello-next
+cd hello-next
+npm init -y
+npm install --save react react-dom next
+mkdir pages
 ```
 
-And repeat
+Then open the package.json file in the hello-next directory and replace scripts with the following:
+```
+"scripts": {
+  "dev": "next",
+  "build": "next build",
+  "start": "next start"
+}
+```
 
+Now everything is ready. Run the following command to start the dev server:
 ```
-until finished
+npm run dev
 ```
+
+Then open http://localhost:3000 from your favourite browser.
 
 End with an example of getting some data out of the system or using it for a little demo
 
