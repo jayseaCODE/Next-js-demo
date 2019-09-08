@@ -37,6 +37,7 @@ class Index extends React.Component
   }
 }
 /*
+// This commented out code is the same as above
 const Index = props => (
   <Layout>
     <h1>Batman TV Shows</h1>
