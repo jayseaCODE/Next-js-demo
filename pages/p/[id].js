@@ -6,6 +6,11 @@ const Post = props => (
     <h1>{props.show.name}</h1>
     <p>{props.show.summary.replace(/<[/]?p>/g, '')}</p>
     <img src={props.show.image.medium} />
+    <style jsx>{`
+      h1,
+      p {
+        font-family: 'Arial';
+      }`}</style>
   </Layout>
 );
 
