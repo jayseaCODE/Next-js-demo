@@ -1,5 +1,10 @@
-import withLayout from '../components/Layout'
+import Layout from '../components/Layout'
 
-const Page = () => <p>This is an About page</p>
+const Page = props =>
+(
+    <Layout>
+        <p>This is an About page</p>
+    </Layout>
+);
 
-export default withLayout(Page);
+export default Page;
