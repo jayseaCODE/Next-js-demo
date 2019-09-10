@@ -1,6 +1,6 @@
 # My spin-out from the next.js learning sample
 
-One Paragraph of project description goes here
+You can view the result of this sample at https://hello-next.jaysealearn.now.sh/
 
 ## Getting Started
 
